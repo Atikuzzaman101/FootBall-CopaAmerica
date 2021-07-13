@@ -1,0 +1,90 @@
+  
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    background-color: #FFFFFF;
+}
+
+/* top section style */
+.copa-america{
+    display: flex;
+    background-color: #2D25A0;
+}
+.section-title{
+    color: white;
+    margin: 100px 105px 240px 156px;
+    font-size: 34px;
+
+}
+.copa-america a{
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #E02C6D
+    ;
+    color: white;
+}
+.photo{
+    margin: 153px 140px 86px 0px;
+}
+.photo img{
+    width: 556px;
+    height: 438px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 27px;
+    margin-top: 70px;
+    
+}
+
+.player{
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+    /* margin-top: 27px;
+    margin-right: 30px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px;
+
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+/* footer section style */
+.footer-container{
+    
+}
+.footer-container img{
+    margin-top: 158px;
+    width: 483px;
+    height: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+
+}
+.filled{
+    color: #969BAB;
+    margin: 15px 15px 0px 15px;
+}
+footer{
+    text-align: center;
+}
+
