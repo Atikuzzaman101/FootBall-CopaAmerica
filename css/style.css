@@ -66,7 +66,7 @@ nav>ul>li>ul>li{
 .copa-america{
     display: flex;
     background-color: #2D25A0;
-    
+    justify-content: space-between;
 
 }
 .copa-america a{
@@ -152,7 +152,7 @@ nav>ul>li>ul>li{
 
 /* footer section style */
 .footer-container{
-   background-color: white;
+   background-color: whitesmoke;
 }
 .footer-container img{
     width: 250px;
@@ -160,7 +160,6 @@ nav>ul>li>ul>li{
     display: block;
     margin-left: auto;
     margin-right: auto;
- 
 }
 .icon{
     display: flex;
@@ -174,7 +173,9 @@ nav>ul>li>ul>li{
 footer{
     text-align: center;
 }
-
+span{
+    color: red;
+}
 
 
 /* media query start */
@@ -201,8 +202,6 @@ footer{
     } 
 
   }
-
-
 
 
 
