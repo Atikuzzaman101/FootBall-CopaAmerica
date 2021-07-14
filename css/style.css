@@ -69,12 +69,6 @@ nav>ul>li>ul>li{
     
 
 }
-.section-title{
-    color: white;
-    margin: 100px 105px 240px 156px;
-    font-size: 34px;
-
-}
 .copa-america a{
     width: 168px;
     height: 44px;
@@ -86,6 +80,15 @@ nav>ul>li>ul>li{
 }
 .copa-america:hover .photo{
     transform: rotate(360deg);
+}
+.section-title{
+    color: white;
+    margin: 100px 105px 240px 156px;
+    font-size: 34px;
+
+}
+#padding-button{
+    padding: 10px 24px;
 }
 .photo{
     margin: 110px 140px 86px 0px;
@@ -172,6 +175,32 @@ footer{
     text-align: center;
 }
 
+
+
+/* media query start */
+
+@media only screen and (max-width: 688px) {
+    header{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .players, .flexible-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0%;
+        padding-top: 100px;
+    }
+    .flexible-container{
+        padding: 0%;
+        margin: 20px;
+    }
+    .copa-america{
+        flex-direction: column;
+        align-items: center;
+    } 
+
+  }
 
 
 
